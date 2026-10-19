@@ -1,25 +1,27 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caveman Games - Tools & Apps</title>
+    <title>Caveman Games - Home</title>
     <style>
         body {
             background-color: #121212;
             color: #ffffff;
             font-family: Arial, sans-serif;
-            text-align: center;
             margin: 0;
-            padding: 50px 20px;
+            padding: 40px 20px;
         }
         .container {
-            max-width: 600px;
+            max-width: 800px;
             margin: 0 auto;
             background: #1e1e1e;
             padding: 40px;
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        .header {
+            text-align: center;
         }
         img.logo {
             width: 120px;
@@ -31,18 +33,40 @@
         }
         h1 {
             color: #ff9800;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
+        }
+        .tagline {
+            color: #888;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #ff9800;
+            border-bottom: 2px solid #333;
+            padding-bottom: 8px;
+            margin-top: 40px;
         }
         p {
             color: #b0b0b0;
             line-height: 1.6;
         }
+        .project-card {
+            background: #252525;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 15px;
+            border-left: 4px solid #ff9800;
+        }
+        .project-card h3 {
+            margin-top: 0;
+            color: #fff;
+        }
         .btn {
             display: inline-block;
             background-color: #4CAF50;
             color: white;
-            padding: 12px 25px;
-            margin-top: 20px;
+            padding: 10px 20px;
+            margin-top: 10px;
             text-decoration: none;
             border-radius: 6px;
             font-weight: bold;
@@ -50,6 +74,12 @@
         }
         .btn:hover {
             background-color: #45a049;
+        }
+        .donate-section {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #333;
         }
         .donate-btn {
             background-color: #ff5722;
@@ -62,21 +92,33 @@
 <body>
 
     <div class="container">
-        <!-- Zorg dat je logo.jpg straks ook in deze map staat -->
-        <img src="logo.jpg" alt="Caveman Games Logo" class="logo">
-        
-        <h1>Caveman Games</h1>
-        <p>Welkom op de officiële hub van Caveman Games! Hier vind je handige tools, utilities en indie projecten die met liefde zijn gebouwd.</p>
+        <div class="header">
+            <img src="logo.jpg" alt="Caveman Games Logo" class="logo">
+            <h1>Caveman Games</h1>
+            <div class="tagline">Independent Software & Game Development</div>
+        </div>
 
-        <hr style="border: 0; border-top: 1px solid #333; margin: 30px 0;">
+        <h2>About Us</h2>
+        <p>Welcome to Caveman Games! We are an independent development studio focused on creating practical desktop utilities, server management tools, and indie games. Our goal is to build reliable, high-performance software that solves real gamer and admin problems.</p>
 
-        <h2>Enshrouded Server Manager</h2>
-        <p>Een gebruiksvriendelijke GUI manager om eenvoudig je Enshrouded dedicated server instellingen en configuraties te beheren.</p>
+        <h2>Upcoming & Open Source Projects</h2>
+        <p>We believe in open development. Soon, we will be rolling out several open-source utilities, mobile applications, and community-driven projects right here. Stay tuned for updates and source code releases!</p>
+
+        <h2>Our Projects</h2>
         
-        <!-- Hier kun je straks je downloadlink of zip-bestand koppelen -->
-        <a href="#" class="btn">Download v1.0 (.zip)</a>
-        <br><br>
-        <a href="https://ko-fi.com/" target="_blank" class="btn donate-btn">☕ Buy me a coffee (Doneren)</a>
+        <!-- Project 1: Enshrouded Manager -->
+        <div class="project-card">
+            <h3>Enshrouded Server Manager</h3>
+            <p>A custom-built Windows GUI manager designed to effortlessly configure world settings, manage player limits, configure access passwords, and control your Enshrouded dedicated server process.</p>
+            <a href="enshrouded-manager.html" class="btn">View Project & Download</a>
+        </div>
+
+        <!-- Support / Buy Me a Coffee Section -->
+        <div class="donate-section">
+            <p>Enjoying our free tools and utilities? Consider supporting future development!</p>
+            <!-- Vervang de href hieronder straks met je eigen Buy Me a Coffee link -->
+            <a href="https://www.buymeacoffee.com/JOUW_GEBRUIKERSNAAM" target="_blank" class="btn donate-btn">☕ Buy me a coffee</a>
+        </div>
     </div>
 
 </body>

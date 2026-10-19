@@ -40,4 +40,4 @@ Developed with passion by **[Caveman Games](https://caveman-games.github.io/cave
 
 If you like this utility and want to support future open-source tools and indie games, consider buying us a coffee!
 
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange?style=for-the-badge&logo=buy-me-a-coffee)](https://www.buymeacoffee.com/JOUW_GEBRUIKERSNAAM)v
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange?style=for-the-badge&logo=buy-me-a-coffee)][https://ko-fi.com/cavemangames])v
